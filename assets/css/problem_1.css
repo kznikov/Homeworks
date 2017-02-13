@@ -1,0 +1,39 @@
+@CHARSET "UTF-8";
+
+#container{
+	font-size: 0.7em;
+	width: 1170px;
+	margin: auto;
+}
+header{
+	height: 60px;
+	width:100%;
+	background-color: #4d8080;
+	margin: auto;
+}
+
+main{
+	width:90%;
+	height: 90px;
+	background-color: green;
+	margin: 0.4em auto;
+}
+
+footer{
+	width: 90%;
+	margin: 0px auto;
+}
+
+footer section:first-child{
+	background-color: purple;
+	float: left;
+	width: 49%;
+	height: 20px;
+}
+
+footer section:nth-child(2){
+	background-color: blue;
+	float: right;
+	width: 49%;
+	height: 20px;
+}

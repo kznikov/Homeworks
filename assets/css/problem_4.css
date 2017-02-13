@@ -1,0 +1,38 @@
+@CHARSET "UTF-8";
+
+#container{
+	width: 585px;
+	margin: auto;
+}
+header{
+	height: 90px;
+	width:100%;
+	background-color: #609f9f;
+	margin: auto;
+}
+main{
+	height: 300px;
+	width: 100%;
+	margin: 2% auto;
+}
+main section:first-child{
+	height: 300px;
+	width:39%;
+	background-color: fuchsia;
+	float: left;
+	margin-right: 2%;
+}
+
+main section:nth-child(2){
+	height: 300px;
+	width:59%;
+	background-color: LawnGreen ;
+	float: left;
+}
+
+
+footer{
+	height: 90px;
+	width:100%;
+	background-color: #1976d2;
+}

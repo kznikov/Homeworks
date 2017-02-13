@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link href="assets/css/problem_7.css" type="text/css" rel="stylesheet"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<style>
+		.mySlides {display:none;}
+	</style>
+	<title>Problem 7</title>
+</head>
+	<body>
+		<div id="container">
+			<header>
+				<section>
+					<a id="mobile-menu" onclick="mobileMenu()" href="#"><img id="menu" style="width:50px;" src="assets/images/mobile_menu.png"/></a> 
+					<nav id="mobile-nav">
+						<ul>
+							<li><a href="#">HOME</a></li>
+							<li><a href="#">ABOUT</a></li>
+							<li><a href="#">MOST POPULAR</a></li>
+							<li><a href="#">NEWS</a></li>
+							<li><a href="#">CONTACS</a></li>
+						</ul>
+					</nav>
+					
+					<a id="home" href="http://localhost/Homework_7/Problem_7.html" ><h1>MOVIES</h1></a>
+					<nav>
+						<ul>
+							<li><a href="#">HOME</a></li>
+							<li><a href="#">ABOUT</a></li>
+							<li><a href="#">MOST POPULAR</a></li>
+							<li><a href="#">NEWS</a></li>
+							<li><a href="#">CONTACS</a></li>
+							<li id="search"><a onclick="searchBox()" href="#"><img id="searchButton" src="assets/images/search_2.png"/></a></li>
+						</ul>
+					</nav>
+					
+					<div id="searchBox">
+						<form action="" method="get">
+							<input name="search" type="text" placeholder=""/>
+							<input type="submit" value=""/>
+						</form>
+					</div>
+				</section>
+				<section>
+					<nav>
+						<ul>
+							<li><a href="#">CINEMA MOVIES</a></li>
+							<li><a href="#">TV SERIES</a></li>
+							<li><a href="#">CARTOONS</a></li>
+							<li><a href="#">ANIME</a></li>
+							<li><a href="#">NEW MOVIES</a></li>
+							<li><a href="#">HD MOVIES</a></li>
+						</ul>
+					</nav>
+				</section>
+		</header>	
+		<main>
+			<section>
+			
+				<div id ="carousel_1">
+					<img id="myimage" alt="Movie Poster" src="assets/images/img_1.jpg"/>
+					<a class="hrefs" href="#">LEARN MORE</a>
+					<a class="hrefs" href="#">WATCH TRAILER</a>
+					<article id="poster1">
+						<h1><strong>Ex Machina</strong></h1>
+						<p>To erase the linebetween man and machine is to obscure the live betweenmen and gods</p>
+					</article>
+					<article id="poster2">
+						<h1><strong>Mad Max</strong></h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut </p>
+					</article>
+					<article id="poster3">
+						<h1><strong>The SpongeBob</strong></h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut </p>
+					</article>
+					
+						<button id="button1" onclick="fun1()"></button>
+						<button id="button2" onclick="fun2()"></button>
+						<button id="button3" onclick="fun3()"></button>
+						
+				</div>
+				
+				<div id="carousel_2">
+						
+ 						 <img class="mySlides_2" src="assets/images/img_1.jpg" />
+						  <img class="mySlides_2" src="assets/images/img_2.jpg" />
+  						<img class="mySlides_2" src="assets/images/img_3.jpg" />
+  						
+  					<article class="posters">
+						<h1><strong>Ex Machina</strong></h1>
+						<p>To erase the linebetween man and machine is to obscure the live betweenmen and gods</p>
+					</article>
+					<article class="posters">
+						<h1><strong>Mad Max</strong></h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut </p>
+					</article>
+					<article class="posters">
+						<h1><strong>SpongeBob</strong></h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut </p>
+					</article>
+					<a class="hrefs" href="#">LEARN MORE</a>
+					<a class="hrefs" href="#">WATCH TRAILER</a>
+					
+				</div>
+				
+				
+			</section>
+			
+			
+			<section>
+				<h1>Watch your favorite movies online</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+				 sed do eiusmod tempor incididunt ut labore et dolore magna 
+				 aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+				  ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+				  Duis aute irure dolor in reprehenderit in voluptate velit
+				   esse cillum dolore eu fugiat nulla pariatur. Excepteur
+				    sint occaecat cupidatat non proident, sunt in culpa qui 
+				     officia deserunt mollit anim id est laborum</p>
+			<form action="" method="post">
+					<ul>
+						<li><input type="radio" value="action">Action</input></li>
+						<li><input type="radio" value="adventure">Adventure</input></li>
+						<li><input type="radio" value="animation">Animation</input></li>
+						<li><input type="radio" value="biography">Biography</input></li>
+						<li><input type="radio" value="comedy">Comedy</input></li>
+						<li><input type="radio" value="crime">Crime</input></li>
+						<li><input type="radio" value="documentary">Documentary</input></li>
+					</ul>
+					<ul>
+						<li><input type="radio" value="drama">Drama</input></li>
+						<li><input type="radio" value="family">Family</input></li>
+						<li><input type="radio" value="fantasy">Fantasy</input></li>
+						<li><input type="radio" value="game-show">Game-show</input></li>
+						<li><input type="radio" value="history">History</input></li>
+						<li><input type="radio" value="horror">Horror</input></li>
+						<li><input type="radio" value="kids">Kids</input></li>
+					</ul>
+					<ul>
+						<li><input type="radio" value="music">Music</input></li>
+						<li><input type="radio" value="musical">Musical</input></li>
+						<li><input type="radio" value="mystery">Mystery</input></li>
+						<li><input type="radio" value="news">News</input></li>
+						<li><input type="radio" value="romance">Romance</input></li>
+						<li><input type="radio" value="sci-fi">Sci-Fi</input></li>
+						<li><input type="radio" value="short">Short</input></li>
+					</ul>
+					<ul>
+						<li><input type="radio" value="sport">Sport</input></li>
+						<li><input type="radio" value="thriller">Thriller</input></li>
+						<li><input type="radio" value="war">War</input></li>
+						<li><input type="radio" value="western">Western</input></li>
+					</ul>
+					<input class="hrefs" type="submit" value="SEARCH"/>
+				
+			</form>
+			</section>
+			
+			<section id="more-movies">
+			
+			<h1>More movies</h1>
+				<ul>
+					<li class="movies">
+						<div class="wrapp">
+							<a href="#"><img class="pic" alt="The Avengers" src="assets/images/avengers.jpg"/></a>
+							<div class="info">
+								<a href="#"><span id="views">456</span><img alt="" src="assets/images/eye.png"/></a>
+								<a href="#"><span id="time">01:30:34</span><img  alt="" src="assets/images/clock.png"/></a>
+								<a href="#"><span id="likes">123</span><img alt="" src="assets/images/heart.png"/></a>
+							</div>
+						</div>
+						<h3>The Avengers<span class="year">2012</span></h3>
+					</li>
+						
+					<li class="movies">
+						<div class="wrapp">
+							<a href="#"><img class="pic" alt="Ted" src="assets/images/ted.jpg"/></a>
+							<div class="info">
+								<a href="#"><span id="views">456</span><img alt="" src="assets/images/eye.png"/></a>
+								<a href="#"><span id="time">01:30:34</span><img  alt="" src="assets/images/clock.png"/></a>
+								<a href="#"><span id="likes">123</span><img alt="" src="assets/images/heart.png"/></a>
+							</div>
+						</div>
+						<h3>Ted 2 <span class="year">2015</span></h3>
+					</li>
+					<li class="movies">
+						<div class="wrapp">
+							<a href="#"><img class="pic" alt="Sherlock Holmes" src="assets/images/sherlock.jpg"/></a>
+							<div class="info">
+								<a href="#"><span id="views">456</span><img alt="" src="assets/images/eye.png"/></a>
+								<a href="#"><span id="time">01:30:34</span><img  alt="" src="assets/images/clock.png"/></a>
+								<a href="#"><span id="likes">123</span><img alt="" src="assets/images/heart.png"/></a>
+							</div>
+						</div>
+						<h3>Sherlock Holmes <span class="year">2008</span></h3>
+					</li>
+					<li class="movies">
+						<div class="wrapp">
+							<a href="#"><img class="pic" alt="Batman vs Supermen" src="assets/images/batman_vs_supermen.jpg"/></a>
+							<div class="info">
+								<a href="#"><span id="views">456</span><img alt="" src="assets/images/eye.png"/></a>
+								<a href="#"><span id="time">01:30:34</span><img  alt="" src="assets/images/clock.png"/></a>
+								<a href="#"><span id="likes">123</span><img alt="" src="assets/images/heart.png"/></a>
+							</div>
+						</div>
+						<h3>Batman vs Supermen <span class="year">2016</span></h3>
+					</li>
+				
+					<li class="movies">
+						<div class="wrapp">
+							<a href="#"><img class="pic" alt="Jack Reacher" src="assets/images/jack.jpg"/></a>
+							<div class="info">
+								<a href="#"><span id="views">456</span><img alt="" src="assets/images/eye.png"/></a>
+								<a href="#"><span id="time">01:30:34</span><img  alt="" src="assets/images/clock.png"/></a>
+								<a href="#"><span id="likes">123</span><img alt="" src="assets/images/heart.png"/></a>
+							</div>
+						</div>
+						<h3>Jack Reacher <span class="year"">2012</span></h3>
+					</li>
+						
+					<li class="movies">
+						<div class="wrapp">
+							<a href="#"><img class="pic" alt="Batman" src="assets/images/batman.jpg"/></a>
+							<div class="info">
+								<a href="#"><span id="views">456</span><img alt="" src="assets/images/eye.png"/></a>
+								<a href="#"><span id="time">01:30:34</span><img  alt="" src="assets/images/clock.png"/></a>
+								<a href="#"><span id="likes">123</span><img alt="" src="assets/images/heart.png"/></a>
+							</div>
+						</div>
+						<h3>The Dark Knight Rises <span class="year"">2012</span></h3>
+					</li>
+					<li class="movies">
+						<div class="wrapp">
+							<a href="#"><img class="pic" alt="Iron Man 3" src="assets/images/iron-man.jpg"/></a>
+							<div class="info">
+								<a href="#"><span id="views">456</span><img alt="" src="assets/images/eye.png"/></a>
+								<a href="#"><span id="time">01:30:34</span><img  alt="" src="assets/images/clock.png"/></a>
+								<a href="#"><span id="likes">123</span><img alt="" src="assets/images/heart.png"/></a>
+							</div>
+						</div>
+						<h3>Iron Man 3 <span class="year">2013</span></h3>
+					</li>
+					<li class="movies">
+						<div class="wrapp">
+							<a href="#"><img class="pic" alt="Vaptain America" src="assets/images/captain-america.jpg"/></a>
+							<div class="info">
+								<a href="#"><span id="views">456</span><img alt="" src="assets/images/eye.png"/></a>
+								<a href="#"><span id="time">01:30:34</span><img  alt="" src="assets/images/clock.png"/></a>
+								<a href="#"><span id="likes">123</span><img alt="" src="assets/images/heart.png"/></a>
+							</div>
+						</div>
+						<h3>Civil War <span class="year">2016</span></h3>
+					</li>
+				
+				</ul>
+					
+		
+				
+					
+				<p  id="view-more" ><a  href="">VIEW MORE</a></p>
+			
+				
+			</section>
+			
+			
+			
+			<section id="popular">
+					<hr/>
+					<h1>Popular</h1>
+					<ul>
+						<li>
+							<div class="rate">
+								<img alt="" src="assets/images/deadpool.jpg"/>
+								<h3>Deadpool</h3>
+								<a style="color:#f73b4c;" href="#">&starf;</a>
+								<a style="color:#f73b4c;" href="#">&starf;</a>
+								<a href="#">&starf;</a>
+								<a href="#">&starf;</a>
+								<a href="#">&starf;</a>
+							</div>
+						</li>
+						
+						<li>
+							<div class="rate">
+								<img alt="" src="assets/images/mummy.jpg"/>
+								<h3>The Mummy</h3>
+								<a style="color:#f73b4c;" href="#">&starf;</a>
+								<a style="color:#f73b4c;" href="#">&starf;</a>
+								<a style="color:#f73b4c;" href="#">&starf;</a>
+								<a style="color:#f73b4c;" href="#">&starf;</a>
+								<a href="#">&starf;</a>
+							</div>
+						</li>
+						<li>
+							<div class="rate">
+								<img alt="" src="assets/images/logan.jpg"/>
+								<h3>Logan</h3>
+								<a style="color:#f73b4c;" href="#">&starf;</a>
+								<a style="color:#f73b4c;" href="#">&starf;</a>
+								<a style="color:#f73b4c;" href="#">&starf;</a>
+								<a href="#">&starf;</a>
+								<a href="#">&starf;</a>
+							</div>
+						</li>
+						<li>
+							<div class="rate">
+								<img alt="" src="assets/images/squad.jpg"/>
+								<h3>Suicide Squad</h3>
+								<a style="color:#f73b4c;" href="#">&starf;</a>
+								<a style="color:#f73b4c;" href="#">&starf;</a>
+								<a style="color:#f73b4c;" href="#">&starf;</a>
+								<a style="color:#f73b4c;" href="#">&starf;</a>
+								<a style="color:#f73b4c;" href="#">&starf;</a>
+							</div>
+						</li>
+						<li>
+							<div class="rate">
+								<img alt="" src="assets/images/hangover.jpg"/>
+								<h3>The Hangover Part III</h3>
+								<a style="color:#f73b4c;" href="#">&starf;</a>
+								<a style="color:#f73b4c;" href="#">&starf;</a>
+								<a style="color:#f73b4c;" href="#">&starf;</a>
+								<a style="color:#f73b4c;" href="#">&starf;</a>
+								<a href="#">&starf;</a>
+							</div>
+						</li>
+						<li>
+							<div class="rate">
+								<img alt="" src="assets/images/interstellar.jpg"/>
+								<h3>Interstellar</h3>
+								<a style="color:#f73b4c;" href="#">&starf;</a>
+								<a style="color:#f73b4c;" href="#">&starf;</a>
+								<a style="color:#f73b4c;" href="#">&starf;</a>
+								<a style="color:#f73b4c;" href="#">&starf;</a>
+								<a style="color:#f73b4c;" href="#">&starf;</a>
+							</div>
+						</li>			
+					</ul>
+					
+			</section>
+			
+			
+			
+			
+			
+			<section id="testimonials">
+				<h1>Testimonials</h1>
+				
+				
+				<div  class="w3-content w3-display-container" >
+
+				<a class="w3-btn-floating w3-hover-dark-grey w3-display-left" onclick="plusDivs(-1)">&#10094;</a>
+				<a class="w3-btn-floating w3-hover-dark-grey w3-display-right" onclick="plusDivs(1)">&#10095;</a>
+				
+				<div class="w3-display-container mySlides">
+				  <img class="slide" alt="Courage" src="assets/images/courage.jpg" />
+				  <div class="middle">
+				  	<p>Courage</br><span>Movie fan</span></p>
+				     <p>"Lorem ipsum dolor sit amet, consectetur adipiscing 
+				   elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+				  </div>
+				</div>
+				
+				<div class="w3-display-container mySlides">
+				  <img class="slide" alt="Rango" src="assets/images/rango.jpg" />
+				  <div class="middle">
+				  	<p>Rango</br><span>Movie fan</span></p>
+				    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing 
+				   elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+				  </div>
+				</div>
+				
+				<div class="w3-display-container mySlides">
+				  <img class="slide" alt="Minion" src="assets/images/minion.jpg"/>
+				  <div class="middle">
+				  		<p>Minion</br><span>Movie fan</span></p>
+				      <p>"Lorem ipsum dolor sit amet, consectetur adipiscing 
+				   elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+				  </div>
+				</div>
+				
+				</div>
+			</section>
+			
+			
+			<section id="contact">
+				<h1>Mail us</h1>
+				
+					<form action="" method="post">
+						<input type="text" name="name" placeholder="Your Name" />
+						<input type="text" name="email" placeholder="Your Email"/>
+						<textarea rows="1" cols="123" name="message"  placeholder="Your Message"></textarea>
+						<input class="hrefs" type="submit" value="SEND"/>
+					</form>
+				
+			</section>
+			
+		</main>
+		
+		<footer>
+				
+				<section>
+					<p>Movies &copy;2015 <a href="#">Privacy Policy</a></p>
+				</section>
+				<section>
+					<p on><strong>Questions? Call Us Toll Free: (012) 123-456-7890</strong></p>
+				</section>
+				<section>
+					<ul>
+						<li><a href="#"><img alt="google" src="assets/images/google.png"/></a></li>
+						<li><a href="#"><img alt="pinterest" src="assets/images/pinterest.png"/></a></li>
+						<li><a href="#"><img alt="twitter" src="assets/images/twitter.png"/></a></li>
+						<li><a href="#"><img alt="facebook" src="assets/images/facebook.png"/></a></li>
+						<li><a href="#"><img alt="instagram" src="assets/images/instagram.png"/></a></li>
+					</ul>
+				</section>
+				
+			</footer>
+			
+			
+		
+		</div>
+		
+	<script type="text/javascript">
+
+		function searchBox(){
+			var hidden = document.getElementById("searchBox");
+		    hidden.style.display = (hidden.style.display == "none") ? "inline-block" : "none";
+		}
+
+
+		function mobileMenu(){
+			var hidden = document.getElementById("mobile-nav");
+			var pic = document.getElementById('menu');
+			pic.style.width = (pic.style.width == "40px") ? "50px" : "40px";
+		    hidden.style.display = (hidden.style.display == "none") ? "block" : "none";
+		   
+		}
+	
+		function fun1(){
+			document.getElementById('myimage').src='assets/images/img_1.jpg';
+			document.getElementById('poster3').style.display="none";
+			document.getElementById('poster2').style.display="none";
+			document.getElementById('poster1').style.display="block";
+		}
+		function fun2(){
+			document.getElementById('myimage').src='assets/images/img_2.jpg';
+			document.getElementById('poster3').style.display="none";
+			document.getElementById('poster1').style.display="none";
+			document.getElementById('poster2').style.display="block";
+			
+		}
+		function fun3(){
+			document.getElementById('myimage').src='assets/images/img_3.jpg';
+			document.getElementById('poster2').style.display="none";
+			document.getElementById('poster1').style.display="none";
+			document.getElementById('poster3').style.display="block";
+		}
+
+		var slideIndex = 1;
+		showDivs(slideIndex);
+
+		function plusDivs(n) {
+		  showDivs(slideIndex += n);
+		}
+
+		function showDivs(n) {
+		  var i;
+		  var x = document.getElementsByClassName("mySlides");
+		  if (n > x.length) {slideIndex = 1}    
+		  if (n < 1) {slideIndex = x.length}
+		  for (i = 0; i < x.length; i++) {
+		     x[i].style.display = "none";  
+		  }
+		  x[slideIndex-1].style.display = "block";  
+		}
+
+
+		var myIndex = 0;
+		carousel();
+
+		function carousel() {
+		    var i;
+		    var k;
+		    var x = document.getElementsByClassName("mySlides_2");
+		    var y = document.getElementsByClassName("posters");
+		    for (i = 0; i < x.length; i++) {
+		       x[i].style.display = "none";
+		       y[i].style.display = "none"; 
+		    }
+		    myIndex++;
+		    if (myIndex > x.length) {myIndex = 1}    
+		    x[myIndex-1].style.display = "block";
+		    y[myIndex-1].style.display = "block";
+		    setTimeout(carousel, 2000); // Change image every 2 seconds
+		}
+
+
+		$(document).ready(function(){
+		    $('.wrapp').hover(function() {
+		        $(this).addClass('transition');
+		    }, function() {
+		        $(this).removeClass('transition');
+		    	  
+		    });
+		});
+
+		$(document).ready(function(){
+		    $('.wrapp').hover(function() {
+		        $(this).find("+h3").css("color", "grey");
+		    }, function() {
+		    	$(this).find("+h3").css("color", "white");
+		    	  
+		    });
+		});
+
+
+
+
+		
+	</script>
+
+	</body>
+</html>

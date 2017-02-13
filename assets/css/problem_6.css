@@ -1,0 +1,124 @@
+@CHARSET "UTF-8";
+
+
+
+
+#container{
+	width: 1170px;
+	margin: 0px 0px 0px 9em;
+}
+
+header{
+	background-color:  rgb(155,102,0);
+	color:white;
+	width: 100%;
+	height: 160px;
+	box-sizing:border-box;
+}
+
+header h1{
+	padding-top: 0.8em;
+	padding-left: 1em;
+}
+
+header p:nth-child(2){
+	padding-top: 1em;
+	padding-left: 3em;
+}
+
+header p:nth-child(3){
+	padding-left: 3em;
+	line-height: 0em;
+}
+
+nav{
+	background-color: rgb(88,32,31);
+	width:15%;
+	color: white;
+	float: left;
+	height: 450px;
+}
+
+nav article h1{
+	margin: 0px;
+	padding-left: 1em;
+}
+
+nav li{
+	padding-bottom: 2em;
+}
+
+main{
+	display: inline-block;
+}
+
+main section{
+	background-color:rgb(255, 254, 204);
+	width: 70%;
+	height: 450px;
+	float: left;
+	box-sizing:border-box;
+}
+
+main section h1{
+	padding-top: 0em;
+	padding-left: 0.7em;
+}
+
+main section p{
+	padding: 1em 1em 0em 3em;
+	text-align: justify;
+}
+
+
+main aside{
+	background-color:rgb(135, 135, 75);
+	width: 15%;
+	float: left;
+	height: 450px;
+}
+
+
+main aside h1{
+	padding-left:1.5em;
+	padding-right:1em;
+	text-align: right;
+	
+}
+
+aside h1{
+	background-color: rgb(153, 151, 102);
+	margin: 0px;
+}
+
+h1{
+	font-size: 1.5em;
+}
+
+nav article{
+	background-color: rgb(100, 51, 47);
+	width: 90%;
+	
+}
+
+
+
+a{
+	text-decoration: none;
+	color:white;
+}
+
+#footer-container{
+	background-color: rgb(101, 101, 101);
+	width: 1170px;
+	height: 45px;
+	margin-top: -5px;
+	float:left
+	
+}
+
+
+footer p{
+	text-align: center;
+	line-height: 1.7em;
+}

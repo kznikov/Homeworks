@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link href="assets/css/Problem_6.css" type="text/css" rel="stylesheet"/>
+<title>Problem 6</title>
+</head>
+	<body>
+		
+	<div id="container">
+			<header>
+				<h1>3col Fixed Header</h1>
+				<p>Exercise uses one graphic with 3 color bars positioned in the proper pixel position.
+				Doesn't allow any of the width to change.</p>
+				<p>See color notes in the content section</p>
+			</header>
+			<main>
+				
+				<nav>
+					<article>
+						<h1>This is the navigation</h1>
+						<ul>
+							<li><a href="#">CHECK</a></li>
+							<li><a href="#">OUT</a></li>
+							<li><a href="#">MY</a></li>
+							<li><a href="#">NOTES</a></li>
+						</ul>
+					</article>
+				</nav>
+				
+				<section>
+						<h1>CONTENT: notes on this 3col Fixed assignment</h1>
+						<p>As in the 2 column exercise, the color change is detectible wherethe div meets
+							the .jpg background. I used the same hexidecimal number in the PS doc as was used in the HTML?</p>
+						<p>This exercise uses a main wrapper background image as one fixed strip. I get serious Float Drop
+							when I resize (reduce) the browser window. I think tht is what "display:inline;/* stops IE doubling margin
+							on float" is for, but would like further explaination to understand this comment.</p>
+						<p>Is keeping the #wrapper div necessary in a stylesheet if there is also going to be 
+							seperate version wrappers as we have here to contain the different background images? Or perhaps this is an example
+							of an inner div as the book suggests? I am still confused on that detail.</p>
+						<p>Even though I have auto margin sets on the wrapper div, the page still huggs the left side
+							? I've tried it in all of them, but it won't budge?</p>
+						<p>Obviously, this footer has a mind of it's own...it's in the wrapper, but the "clear" seems
+							to be allowing it outside. However, when I remove the clear, it hugs the bottom of the header?</p>
+				</section>
+				
+				<aside>
+					<h1>This is the failed right side</h1>
+				</aside>
+			
+			
+			</main>
+		
+		</div>
+		
+		<div id="footer-container">
+			<footer>
+				<p>&copy;2009 Not so great at Styllin' with CSS</p>
+			</footer>
+		</div>
+		
+		
+	</body>
+</html>
