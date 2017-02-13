@@ -528,6 +528,7 @@ input[type='submit']{
 	width: 120px;
 	height:170px;
 	margin:0 auto;
+	cursor:pointer;
 	transition: all 0.3s;
 }
 
