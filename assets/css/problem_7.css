@@ -667,8 +667,13 @@ textarea[name]{
 	   
 }
 
-input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder{
-	opacity:0.0;
+[placeholder]::-webkit-input-placeholder{
+	 font-size:1em;
+	 transition: font-size 0.8s;
+}
+
+[placeholder]:focus::-webkit-input-placeholder {
+  font-size: 0.0em;
 }
 
 
